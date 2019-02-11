@@ -1,0 +1,17 @@
+﻿<Window x:Class="_185909HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_185909HelloWorld"
+        mc:Ignorable="d"
+        Title="My First Program" Height="350" Width="525">
+    <StackPanel Orientation="Vertical">
+        <Label x:Name="Message" Content="Hello World"></Label>
+        <TextBox x:Name="txtname" Text="Enter Your Name Here..."></TextBox>
+        <Button x:Name="btngreeting" Content="Click Me For Greeting" Click="btngreeting_Click"></Button>
+
+            <Label>HaHa RuN tHe PrOgRaM</Label>
+        <Label>Second Label Just Because</Label>
+    </StackPanel>
+</Window>
